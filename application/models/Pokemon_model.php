@@ -19,7 +19,7 @@ class Pokemon_model extends CI_Model{
 
     /* Fungsi ini menginsertkan data ke dalam tabel pokemon.
      * Parameter $data berisi data yang akan diinsertkan dalam bentuk associative array
-     * yang terdiri dari pasangan key=>value. Key adalan nama field, sedangkan value adalah
+     * yang terdiri dari pasangan key=>value. Key adalah nama field, sedangkan value adalah
      * nilai field
      */
     public function insert($data){
@@ -28,7 +28,7 @@ class Pokemon_model extends CI_Model{
 
     /* Fungsi ini mengupdate data ke dalam tabel pokemon yang memiliki id=$id.
      * Parameter $data berisi data yang akan diinsertkan dalam bentuk associative array
-     * yang terdiri dari pasangan key=>value. Key adalan nama field, sedangkan value adalah
+     * yang terdiri dari pasangan key=>value. Key adalah nama field, sedangkan value adalah
      * nilai field
      */
     public function update($data, $id){
